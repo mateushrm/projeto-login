@@ -43,6 +43,9 @@ section#login > div#imagem {
     background-position: left bottom;
     background-size: cover;
     height: 200px;
+
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#forms{
